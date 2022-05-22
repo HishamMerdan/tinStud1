@@ -1,2 +1,1 @@
-# tinStud1
-app
+TinDog Starting Files
