@@ -1,3 +1,4 @@
+/* https://hishammerdan.github.io/tinStud1/ */
 body {
     font-family: montserrat;
 }
@@ -5,15 +6,15 @@ body {
 
 #title {
     background-color: #ff4c68;
-    background-image: url("/Users/hishammerdan/Documents/UNI/WI-Projekt/TinDog-Start-master/images/IMG_4880.jpg");
-    background-size: 100%;
+    /* background-image: url("/Users/hishammerdan/Documents/UNI/WI-Projekt/TinDog-Start-master/images/IMG_4880.jpg");
+    background-size: 100%; */
     color: #fff;
 }
 
 h1 {
     font-family: Montserrat-black;
     font-size: 3.5rem;
-    height: 1, 5;
+    height: 1.5;
 }
 
 h2 {
@@ -25,7 +26,7 @@ h2 {
 h3 {
     font-family: montserrat-bold;
     size: 1.5rem;
-    margin: 0rem 0;
+    margin: 0;
 
 }
 
@@ -67,15 +68,18 @@ h3 {
 
 .tittel-img {
     transform: rotate(25deg);
-    width: 60%;
+    width: 18rem;
+    position: absolute;
+    right: 30%;
 }
 
 
 /* features */
 #features {
     padding: 7% 15%;
+    position: relative;
+background-color: #fff;
 }
-
 .features-box {
     text-align: center;
     padding: 5%;
@@ -96,12 +100,14 @@ h3 {
     background-color: #ef8172;
     text-align: center;
     color: #ffff;
+    background-image: url("/Users/hishammerdan/Documents/UNI/WI-Projekt/TinDog-Start-master/images/IMG_4880.jpg");
+    background-size: 100%;
 }
 
 .testimonial-image {
-    width: 10%;
+    width: 20%;
     border-radius: 100%;
-    margin: 20%;
+    margin: 10%;
 }
 
 .carousel-item{
@@ -109,7 +115,7 @@ h3 {
 }
 
 #press {
-    background-color: #ef8172;
+    background-color: white;
     padding-bottom: 2%;
     text-align: center;
 }
@@ -117,4 +123,44 @@ h3 {
 .press-logo {
     width: 15%;
     margin: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing{
+    text-align: center;
+    padding: 100px;
+}
+.pricing-colum{
+    padding: 3% 2%;
+
+}
+/* call-to-action */
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    font-family: montserrat-bold;
+    color: white;
+    padding-top: 5%;
+}
+
+/* footer */
+#footer{
+    text-align: center;
+    padding: 2%;
+    background-color: white;
+}
+.footer-logo{
+    margin: 1.5%;
+
+}
+
+
+@media(max-width: 1100px){
+    #title{
+        text-align: center;
+    }
+    .tittel-img {
+        position: static;
+        transform: rotate(0);
+    }
 }
