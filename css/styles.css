@@ -97,7 +97,8 @@ background-color: #fff;
 /* testimonials */
 
 #testimonials {
-    background-color: #ef8172;
+   /* background-color: #ef8172;*/
+    
     text-align: center;
     color: #ffff;
     background-image: url("IMG_4880.jpg");
